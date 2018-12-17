@@ -1,0 +1,26 @@
+.login-h1 {
+    text-align: center;
+}
+
+.signup-h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ui.middle.aligned.small.blue.button {
+    margin: 10px;
+}
+
+.ui.middle.aligned.small.red.button {
+    margin: 10px;
+}
+
+i.close.icon {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.right-column.column {
+    pointer-events: none;
+}

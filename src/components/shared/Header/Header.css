@@ -1,0 +1,4 @@
+#root > div > div.App-content > div.App-header > div > div.ui.fixed.inverted.menu {
+    padding: 5px;
+    background-color:grey;
+}
