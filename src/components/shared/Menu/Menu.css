@@ -1,0 +1,15 @@
+#root > div > div.App-content > div.App-header > div > div.ui.fixed.inverted.menu > div > a:nth-child(1) {
+    color: white;
+}
+
+#root > div > div.App-content > div.App-header > div > div.ui.fixed.inverted.menu > div > a:nth-child(2) {
+    color: white;
+}
+
+#root > div > div.App-content > div.App-header > div > div.ui.fixed.inverted.menu > div > a:nth-child(3) {
+    color: white;
+}
+
+#root > div > div.App-content > div.App-header > div > div.ui.fixed.inverted.menu > div > a:nth-child(4) {
+    color: white;
+}

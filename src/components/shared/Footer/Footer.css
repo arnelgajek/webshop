@@ -1,0 +1,8 @@
+#root > div > div.App-footer {
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}

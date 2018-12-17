@@ -1,0 +1,9 @@
+.pagination {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ui.pagination.menu {
+    margin-bottom: 75px;
+}

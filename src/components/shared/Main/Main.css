@@ -1,0 +1,17 @@
+#root > div > div.App-content > div.App-header > div > div:nth-child(2) > div > div > div.sixteen.wide.column {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#root > div > div.App-content > div.App-header > div > div:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+#root > div > div.App-content > div.App-header > div > div:nth-child(2) > div > div > div.twelve.wide.column > div.main-slider.ui.raised.card {
+    width: 100%;
+}
+
+#root > div > div.App-content > div.App-header > div > div:nth-child(2) > div > div > div.twelve.wide.column > div.main-toplist-box.ui.raised.card {
+    margin-top: 400px;
+    width: 100%;
+}

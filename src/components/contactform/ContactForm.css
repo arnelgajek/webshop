@@ -1,0 +1,7 @@
+#root > div > div.App-content > div.App-header > div > div.ui.container > div > div > div.contactform-container.center.aligned.eight.wide.column > div > div {
+    width: 80%;
+}
+
+label.label-contactform {
+    float: left;
+}
