@@ -1,12 +1,12 @@
 import React from 'react';
 
-import ProductMain from '../../productmain/ProductMain';
+import ProductsMain from '../../productsmain/ProductsMain';
 
 class Products extends React.Component {
     render() {
         return (
             <div className="ui container">
-                <ProductMain />
+                <ProductsMain />
             </div>
         );
     }

@@ -4,13 +4,21 @@ import Modal from "react-modal";
 import "./LoginToAccount.css";
 
 const customStyles = {
+  overlay: {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.6)'
+  },
   content: {
     top: "50%",
     left: "50%",
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
-    transform: "translate(-50%, -50%)"
+    transform: "translate(-50%, -50%)",
   }
 };
 
@@ -19,13 +27,12 @@ Modal.setAppElement("#root");
 class LoginToAccount extends React.Component {
   render() {
     return (
-      <Modal isOpen={this.props.isOpen} style={customStyles}>
+      <Modal isOpen={this.props.isOpen} style={customStyles} onRequestClose={this.props.onClose} >
         <div className="modal">
           <div className="ui placeholder segment">
             <i
               className="close icon"
               onClick={this.props.onClose}
-              onRequestClose={this.props.onClose}
             />
             <div className="ui two column very relaxed stackable grid">
               <div className="left-column column">

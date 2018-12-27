@@ -20,7 +20,6 @@ class MainSlider extends React.Component {
   }
 
   goToPrevSlide = () => {
-    // NEED TO FIX THIS CODE!!
     if (this.state.currentIndex === 0) {
       return this.setState({
         currentIndex: 0,

@@ -8,10 +8,9 @@ class Login extends React.Component {
     return (
       <WebshopConsumer>
         {({ openLoginModal }) => (
-          <i
-            onClick={openLoginModal}
-            className="large user outline icon"
-          />
+          <div className="account-login-icon">
+          <i onClick={openLoginModal} className="large user outline icon" /> Account
+          </div>
         )}
       </WebshopConsumer>
     );

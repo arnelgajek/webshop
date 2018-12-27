@@ -1,0 +1,18 @@
+.title-and-paragraph.five.wide.column {
+    margin-top: 50px;
+}
+
+h2.price-tag {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.total-price.ui.sixteen.column {
+    margin-top: 20px;
+}
+
+h3.total-price-text {
+    float: right;
+    margin-bottom: 25px;
+}

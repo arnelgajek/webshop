@@ -1,11 +1,14 @@
 import React from 'react';
 
 import './Product.css';
+import ProductMain from '../../productmain/ProductMain';
 
 class Product extends React.Component {
     render() {
         return (
-            <div>Single Product</div>
+            <div className="ui container">
+                <ProductMain />
+            </div>
         );
     }
 }

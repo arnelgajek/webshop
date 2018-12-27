@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import './Menu.css';
 import RightMenu from "../Rightmenu/Rightmenu";
+import { WebshopConsumer } from "../../../webshop.context";
 
 class Menu extends React.Component {
 
@@ -22,7 +23,13 @@ class Menu extends React.Component {
           About
         </Link>
         <div className="right menu">
+        <WebshopConsumer>
+        {({ openLoginModal }) => (
+        <Link to="" className="item" onClick={openLoginModal} >
         <RightMenu />
+        </Link>
+        )}
+        </WebshopConsumer>
         </div>
       </div>
     );

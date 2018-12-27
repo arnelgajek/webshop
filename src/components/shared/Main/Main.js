@@ -4,7 +4,6 @@ import "./Main.css";
 import SideBar from "../../shared/Sidebar/SideBar";
 import MainTopListBox from "../Maintoplistbox/MainTopListBox";
 import MainNewsBox from "../Mainnewsbox/MainNewsBox";
-// import SideBannerAdd from "../SideBannerAdd/SiedBannerAdd";
 import MainSlider from "../MainSlider/MainSlider";
 
 class Main extends React.Component {
@@ -22,9 +21,6 @@ class Main extends React.Component {
                 <SideBar />
               </div>
             </div>
-            {/* <div className="ui raised card">
-              <SideBannerAdd />
-            </div> */}
           </div>
           <div className="sixteen wide column">
             <MainTopListBox />

@@ -1,0 +1,19 @@
+.computers-checkbox.ui.checkbox {
+  padding: 10px;
+}
+
+.phones-checkbox.ui.checkbox {
+  padding: 10px;
+}
+
+.tablets-checkbox.ui.checkbox {
+  padding: 10px;
+}
+
+.accessories-checkbox.ui.checkbox {
+  padding: 10px;
+}
+
+.breadcrumb-container.ui.container {
+  margin-top: -30px;
+}

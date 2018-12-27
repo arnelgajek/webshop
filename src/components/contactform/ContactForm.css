@@ -5,3 +5,13 @@
 label.label-contactform {
     float: left;
 }
+
+.contact-form-placeholder.ui.form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contactform-container.center.aligned.eight.wide.column {
+    margin-top: 50px;
+}
