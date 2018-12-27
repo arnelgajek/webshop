@@ -5,7 +5,7 @@ import './ProductCheckOut.css';
 class ProductCheckOut extends React.Component {
     render() {
         return (
-            <i className="ui zoom-in icon"></i>
+            <i className="ui small zoom-in icon"></i>
         );
     }
 }

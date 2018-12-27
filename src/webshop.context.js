@@ -7,10 +7,10 @@ export class WebshopProvider extends React.Component {
     //     super(props);
     // }
     render() {
-        const { children, openLoginModal } = this.props;
+        const { children, openLoginModal, fakeDeleteCartItem, deleteButtonProp } = this.props;
         return (
            <WebshopContext.Provider
-            value={{ openLoginModal }}
+            value={{ openLoginModal, fakeDeleteCartItem, deleteButtonProp }}
             >
             { children }
            </WebshopContext.Provider>

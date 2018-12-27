@@ -1,9 +1,9 @@
 import React from "react";
 
+import './ProductDetail.css';
 import ProductTitle from "../producttitle/ProductTitle";
 import ProductPrice from "../productprice/ProductPrice";
-import ProductCheckOut from '../productcheckout/ProductCheckOut';
-import iMac from "../shared/Images/iMac.png";
+import iMac from "../shared/Images/iMac.jpeg";
 import ProductParagraph from "../productparagraph/ProductParagraph";
 
 class ProductDetail extends React.Component {
@@ -11,23 +11,24 @@ class ProductDetail extends React.Component {
     return (
       <div className="productDetail">
         <div className="ui raised card">
-          <div className="image">
+          <a className="image" href="/product">
             <img src={iMac} alt="iMac" />
-          </div>
+          </a>
           <div className="ui content">
-            <a href="/" className="header">
+            <a href="/product" className="header">
               <ProductTitle />
             </a>
+            <div className="description">
+            <a href="/product">
+              <ProductParagraph />
+              </a>
+            </div>
             <div className="meta">
               <span className="price">
+              <a href="/product">
                 <ProductPrice />
+                </a>
               </span>
-            </div>
-            <div className="description">
-            <ProductParagraph />
-            </div>
-            <div className="checkout">
-                <ProductCheckOut />
             </div>
           </div>
         </div>

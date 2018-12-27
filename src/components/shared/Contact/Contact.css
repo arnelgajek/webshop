@@ -1,11 +1,9 @@
-/* .address.column {
-  float: left;
+.contact-info-placeholder {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.phonenumber.column {
-  float: left;
+.contactinfo-container.center.aligned.eight.wide.column {
+  margin-top: 50px;
 }
-
-.emailaddress.column {
-  float: left;
-} */

@@ -24,3 +24,7 @@ i.close.icon {
 .right-column.column {
     pointer-events: none;
 }
+
+.ui.placeholder.segment {
+    background-color: white;
+}

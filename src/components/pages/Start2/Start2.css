@@ -1,0 +1,111 @@
+img.start-page-image {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    margin-top: inherit;
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+h1.start-banner.ui {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 10%;
+    color: lightcoral;
+    font-size: 120px;
+    text-shadow:2px 2px white;
+    font-family: 'Great Vibes', cursive;
+}
+
+a.shop-banner.ui {
+    right: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    position: absolute;
+    color: white;
+    font-size: large;
+    text-shadow:2px 2px black;
+}
+
+/* BIG BOY CONTENT */
+.big-selling-point.sixteen.wide.column {
+    left: 50%;
+    position: absolute;
+    top: 30%;
+    z-index: 50;
+}
+
+/* SHIPPING */
+.selling-point-one.five.wide.column {
+    float: unset;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+i.shipping-icon.ui.massive.truck.icon {
+    padding: 25px;
+    left: 40%;
+    position: relative;
+    transform: translateX(-40%);
+    margin-bottom: 50px;
+}
+
+.shipping-content.content {
+    text-align: center;
+}
+
+.shipping-description.description {
+    margin-bottom: 30px;
+}
+
+/* PAYMENT */
+.selling-point-two.five.wide.column {
+    float: unset;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+i.payment-icon.ui.massive.cc.mastercard.icon {
+    padding: 25px;
+    left: 40%;
+    position: relative;
+    transform: translateX(-40%);
+    margin-bottom: 50px;
+}
+
+.payment-content.content {
+    text-align: center;
+}
+
+.payment-description.description {
+    margin-bottom: 30px;
+}
+
+/* CUSTOMER SERVICE */
+.selling-point-three.five.wide.column {
+    float: unset;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+i.customer-service-icon.ui.massive.thumbs.up.outline.icon {
+    padding: 25px;
+    left: 40%;
+    position: relative;
+    transform: translateX(-40%);
+    margin-bottom: 50px;
+}
+
+.customer-service-content.content {
+    text-align: center;
+}
+
+.customer-service-description.description {
+    margin-bottom: 30px;
+}

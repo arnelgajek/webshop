@@ -4,7 +4,7 @@ import iPadPro from "../Images/iPadPro.png";
 import iPhoneX from "../Images/iPhoneX.png";
 import iMac from "../Images/iMac.png";
 import SideBannerTitle from "../Sidebannertitle/SideBannerTitle";
-import './SideBannerImage.css';
+import "./SideBannerImage.css";
 
 class SideBannerImage extends React.Component {
   render() {
@@ -13,17 +13,30 @@ class SideBannerImage extends React.Component {
         <SideBannerTitle />
         <br />
         <div className="ui top aligned">
-          <img className="ui centered small image" src={iPadPro} alt="sidebanner_image" />
+          <img
+            className="ui centered small image"
+            src={iPadPro}
+            alt="sidebanner_image"
+          />
+          <h2>iPad Pro</h2>
           <br />
           <br />
         </div>
         <div className="ui middle aligned">
-          <img className="ui centered small image" src={iPhoneX} alt="sidebanner_image" />
+          <img
+            className="ui centered small image"
+            src={iPhoneX}
+            alt="sidebanner_image"
+          />
         </div>
         <br />
         <br />
         <div className="ui bottom aligned">
-          <img className="ui centered  small image" src={iMac} alt="sidebanner_image" />
+          <img
+            className="ui centered  small image"
+            src={iMac}
+            alt="sidebanner_image"
+          />
         </div>
         <br />
         <br />

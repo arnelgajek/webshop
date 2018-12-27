@@ -1,3 +1,7 @@
 .checkout {
     float: right;
 }
+
+i.ui.zoom-in.icon {
+    color: black;
+}

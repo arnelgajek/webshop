@@ -1,4 +1,4 @@
-#root > div > div.App-content > div.App-header > div > div.ui.fixed.inverted.menu > div > div > i{
-    margin-top: 15px;
+.account-login-icon {
     color: white;
+    font-size: 14px;
 }

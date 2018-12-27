@@ -1,15 +1,3 @@
-.computers-checkbox.ui.checkbox {
-  padding: 10px;
-}
-
-.phones-checkbox.ui.checkbox {
-  padding: 10px;
-}
-
-.tablets-checkbox.ui.checkbox {
-  padding: 10px;
-}
-
-.accessories-checkbox.ui.checkbox {
-  padding: 10px;
+.product-information.ten.wide.column {
+    margin-top: 60px;
 }
